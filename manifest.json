@@ -1,0 +1,16 @@
+{
+  "name": "复制boxmp4链接",
+  "version": "1.0",
+  "description": "复制boxmp4磁力链接",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.boxmp4.com/detail/*.html"
+      ],
+      "js": [
+        "main.js"
+      ]
+    }
+  ]
+}
